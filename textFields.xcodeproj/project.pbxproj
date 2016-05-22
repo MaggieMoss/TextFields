@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC7B8EEB1CF0C6A000606273 /* LockedFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B8EEA1CF0C6A000606273 /* LockedFieldDelegate.swift */; };
+		BCF0739F1CEBF3C70076D346 /* CashFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0739E1CEBF3C70076D346 /* CashFieldDelegate.swift */; };
 		BCF644A51CE9531400D7178A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF644A41CE9531400D7178A /* AppDelegate.swift */; };
 		BCF644A71CE9531400D7178A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF644A61CE9531400D7178A /* ViewController.swift */; };
 		BCF644AA1CE9531400D7178A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF644A81CE9531400D7178A /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		BCF644B21CE9531500D7178A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF644B01CE9531500D7178A /* LaunchScreen.storyboard */; };
 		BCF644BD1CE9531500D7178A /* textFieldsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF644BC1CE9531500D7178A /* textFieldsTests.swift */; };
 		BCF644C81CE9531500D7178A /* textFieldsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF644C71CE9531500D7178A /* textFieldsUITests.swift */; };
+		BCF644D81CE953BC00D7178A /* ZipCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF644D71CE953BC00D7178A /* ZipCodeDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC7B8EEA1CF0C6A000606273 /* LockedFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockedFieldDelegate.swift; sourceTree = "<group>"; };
+		BCF0739E1CEBF3C70076D346 /* CashFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashFieldDelegate.swift; sourceTree = "<group>"; };
 		BCF644A11CE9531400D7178A /* textFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF644A41CE9531400D7178A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCF644A61CE9531400D7178A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		BCF644C31CE9531500D7178A /* textFieldsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textFieldsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF644C71CE9531500D7178A /* textFieldsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldsUITests.swift; sourceTree = "<group>"; };
 		BCF644C91CE9531500D7178A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF644D71CE953BC00D7178A /* ZipCodeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		BCF644A31CE9531400D7178A /* textFields */ = {
 			isa = PBXGroup;
 			children = (
+				BCF644D61CE9539300D7178A /* Text Field Delegates */,
 				BCF644A41CE9531400D7178A /* AppDelegate.swift */,
 				BCF644A61CE9531400D7178A /* ViewController.swift */,
 				BCF644A81CE9531400D7178A /* Main.storyboard */,
@@ -126,6 +133,16 @@
 				BCF644C91CE9531500D7178A /* Info.plist */,
 			);
 			path = textFieldsUITests;
+			sourceTree = "<group>";
+		};
+		BCF644D61CE9539300D7178A /* Text Field Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				BCF644D71CE953BC00D7178A /* ZipCodeDelegate.swift */,
+				BCF0739E1CEBF3C70076D346 /* CashFieldDelegate.swift */,
+				BC7B8EEA1CF0C6A000606273 /* LockedFieldDelegate.swift */,
+			);
+			name = "Text Field Delegates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF644A71CE9531400D7178A /* ViewController.swift in Sources */,
+				BCF0739F1CEBF3C70076D346 /* CashFieldDelegate.swift in Sources */,
+				BCF644D81CE953BC00D7178A /* ZipCodeDelegate.swift in Sources */,
+				BC7B8EEB1CF0C6A000606273 /* LockedFieldDelegate.swift in Sources */,
 				BCF644A51CE9531400D7178A /* AppDelegate.swift in Sources */,
 				BCF644AD1CE9531500D7178A /* textFields.xcdatamodeld in Sources */,
 			);
@@ -488,6 +508,7 @@
 				BCF644CE1CE9531500D7178A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF644CF1CE9531500D7178A /* Build configuration list for PBXNativeTarget "textFieldsTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +517,7 @@
 				BCF644D11CE9531500D7178A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF644D21CE9531500D7178A /* Build configuration list for PBXNativeTarget "textFieldsUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				BCF644D41CE9531500D7178A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
