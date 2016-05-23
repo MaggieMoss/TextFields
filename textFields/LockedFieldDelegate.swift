@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
-class LockedFieldDelegate: NSObject, UITextFieldDelegate {
+class LockedFieldDelegate: NSObject,UITextFieldDelegate {
+
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool{
+            return true
+    }
     
 }

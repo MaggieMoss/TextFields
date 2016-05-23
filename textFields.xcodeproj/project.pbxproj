@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC7B8EEB1CF0C6A000606273 /* LockedFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B8EEA1CF0C6A000606273 /* LockedFieldDelegate.swift */; };
 		BCF0739F1CEBF3C70076D346 /* CashFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0739E1CEBF3C70076D346 /* CashFieldDelegate.swift */; };
 		BCF644A51CE9531400D7178A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF644A41CE9531400D7178A /* AppDelegate.swift */; };
 		BCF644A71CE9531400D7178A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF644A61CE9531400D7178A /* ViewController.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC7B8EEA1CF0C6A000606273 /* LockedFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockedFieldDelegate.swift; sourceTree = "<group>"; };
 		BCF0739E1CEBF3C70076D346 /* CashFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashFieldDelegate.swift; sourceTree = "<group>"; };
 		BCF644A11CE9531400D7178A /* textFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF644A41CE9531400D7178A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 			children = (
 				BCF644D71CE953BC00D7178A /* ZipCodeDelegate.swift */,
 				BCF0739E1CEBF3C70076D346 /* CashFieldDelegate.swift */,
-				BC7B8EEA1CF0C6A000606273 /* LockedFieldDelegate.swift */,
 			);
 			name = "Text Field Delegates";
 			sourceTree = "<group>";
@@ -279,7 +276,6 @@
 				BCF644A71CE9531400D7178A /* ViewController.swift in Sources */,
 				BCF0739F1CEBF3C70076D346 /* CashFieldDelegate.swift in Sources */,
 				BCF644D81CE953BC00D7178A /* ZipCodeDelegate.swift in Sources */,
-				BC7B8EEB1CF0C6A000606273 /* LockedFieldDelegate.swift in Sources */,
 				BCF644A51CE9531400D7178A /* AppDelegate.swift in Sources */,
 				BCF644AD1CE9531500D7178A /* textFields.xcdatamodeld in Sources */,
 			);
